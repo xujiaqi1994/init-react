@@ -9,10 +9,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "umi build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "dev": "umi dev"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -28,14 +27,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
-  "main": "index.js",
-  "devDependencies": {
-    "umi": "^2.8.3",
-    "umi-plugin-react": "^1.9.1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  }
 }
